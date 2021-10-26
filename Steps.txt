@@ -1,0 +1,37 @@
+Step 1 Download library:
+1- Create project asp.net form
+2- From tools >NuGet Package Manager>Package Manager Console
+3-Install-Package Google.Apis.Drive.v3
+Step 2 Setup:
+1- Open 
+https://console.developers.google.com/start/api?id=drive  
+Click on "Agree and continue"
+Now The API is enabled let's go to credentials
+
+Click on Cancel 
+
+then on the menu Click on OAuth consent screen
+User Type: External
+App Name: chose any name 
+user support email: put your Email
+Developer contact information: Put your Email
+Save and continue
+The Scopes click on Save and continue
+Test User: Add your Email **click on Save and continue
+then Back to the dashboard
+
+on the menu Click on Credentials 
++CREATE Credentials
+OAuth client ID
+
+Application type >Web ,Name>Any Name,
+Authorized redirect URIs**>http://localhost/authorize, http://127.0.0.1/authorize
+Create
+
+Now OAuth Client created Download JSON file 
+
+let's Go Back to VS
+Step 3:
+Download Code files 
+
+
